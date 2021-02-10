@@ -1,0 +1,274 @@
+/*stylesheet for Hotel Manager*/
+* {
+    box-sizing: border-box;
+}
+
+.slideleft {
+    min-height: calc(100vh - 170px);
+}
+
+.loginbg {
+    background-image:url("http://strowberrycode.com/wp-content/uploads/2017/10/Shine-beautiful-abstract-background-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+}
+.imagedialog{
+    border: 0px solid red;
+    width:300px;
+    height: 150px;
+    background-image:url("http://strowberrycode.com/wp-content/uploads/2017/10/hb-logo-1.png");
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+button:focus {
+    outline: none;
+}
+/*========================Main Menu styles =============*/
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #ffffff;
+}
+.nav-item {
+    border-radius: 2px;
+}
+.nav-item:hover {
+    background-color: #3d586b;
+}
+.nav-all {
+    flex-wrap: wrap;
+    padding-left: 0;
+    /*margin-bottom: 0;*/
+    list-style: none;
+}
+.nav-link-all {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navigation-header {
+    min-height: 40px;
+}
+.slideleft {
+    margin-left: 60px;
+    transition: all 225ms ease-in-out;
+}
+.slideleft.withslide {
+    margin-left: 240px;
+}
+.main-header {
+    background-color: #4b708a !important;
+}
+/*=========================container styles==============*/
+.custom-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.modal-container {
+    padding: 25px;
+}
+/*========================standart styles =============*/
+.actionmenu-mobile {
+    display: none;
+}
+.desktop-actions {
+    display: flex;
+}
+.action-bar {
+    background-color: #33A9BB;
+    margin: 0 !important;
+    padding: 8px 15px;
+}
+.header-toolbar {
+    background-color: #33A9BB;
+}
+.fab-add {
+    position: fixed !important;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+}
+/*standard margins and paddings*/
+
+.margin-right {
+    margin-right: 10px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.margin-bottom {
+    margin-bottom: 20px !important;
+}
+.margin-bottom-input {
+    margin-bottom: 15px;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.white-font {
+    color: #ffffff !important;
+}
+.white-font h3 {
+    color: #ffffff;
+}
+.red-font {
+    color: #d04e4e;
+}
+.grey-color {
+    background-color: #dedede;
+}
+.paid-status {
+    background-color: #64b46c;
+}
+.unpaid-status {
+    background-color: #d04e4e;
+}
+.float {
+    display: -webkit-inline-box;
+}
+.table-head {
+    background-color: #4C6F89;
+    padding: 5px;
+    color: #fff;
+}
+.section-block-head {
+    font-size: 15px;
+}
+.section-block-content {
+    font-size: 16px;
+    font-weight: 700;
+}
+/*===========================================mobile menu====================*/
+.mobile-menu {
+    display: none;
+}
+/* custom card */
+.custom-card {
+    margin-bottom: 50px;
+}
+.custom-card:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.container {
+    min-height: calc(100vh - 70px);
+}
+/*=======================================overview style=============================*/
+.card-title {
+    margin-left: 10px !important;
+  }
+/*reservations view*/
+.section-content {
+    display: flex;
+}
+/*===========================================mobile menu====================*/
+.mobile-menu {
+    background: #303f9f;
+    height: 60px;
+    border: 0;
+    width: 100%;
+    position: fixed;
+    display: none;
+    justify-content: space-between;
+    z-index: 9999;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    top: 0;
+}
+/*====================================================calendar=====================================================*/
+
+/*========================================================main old list page=======================================*/
+
+.form-group.margin-top {
+    margin-top: 50px;
+}
+
+/* field background colors*/
+.orange {
+    background-color: orange;
+}
+.white {
+    background-color: #fff;
+}
+.blue {
+    background-color: #009fe2;
+}
+.red {
+    background-color: #a13737;
+}
+.rose {
+    background-color: #ff5a5f;
+}
+.red,
+.blue,
+.orange,
+.rose {
+    color: #ffffff;
+}
+.grey-background {
+    background-color: gray;
+}
+/*=========================================================================responsive style=========================================================*/
+@media screen and (max-width: 1268px) {
+}
+/*computer*/
+@media screen and (max-width: 980px) {
+}
+
+/*mobile menu*/
+@media screen and (max-width: 900px) {
+    .mobile-menu {
+        display: contents;
+    }
+    .desktop-menu {
+        display: none;
+    }
+}
+/* tablets */
+@media screen and (max-width: 768px) {
+    .mobile-display {
+        display: block !important;
+    }
+    .MainContainer-drawerPaperClose-7 {
+        display: none !important;
+    }
+    .slideleft {
+        margin-left: 0;
+    }
+    .actionmenu-mobile {
+        display: block;
+    }
+    .desktop-actions {
+        display: none;
+    }
+    .m-bottom {
+        margin-bottom: 30px;
+    }
+}
+
+/*phones*/
+@media screen and (max-width: 480px) {
+}
+@media (min-width: 768px) {
+    .custom-container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .custom-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .custom-container {
+      width: 1170px;
+    }
+  }

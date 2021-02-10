@@ -1,0 +1,34 @@
+/* This is stylesheet for header
+*/
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #ffffff;
+}
+.nav-item {
+    border-radius: 2px;
+}
+.nav-item:hover {
+    background-color: #1A237E;
+}
+.nav-all {
+    flex-wrap: wrap;
+    padding-left: 0;
+    /*margin-bottom: 0;*/
+    list-style: none;
+}
+.nav-link-all {
+    display: block;
+    padding: .5rem 1rem;
+}
+.navigation-header {
+    min-height: 40px;
+}
+.slideleft {
+    margin-left: 60px;
+    transition: all 225ms ease-in-out;
+}
+.slideleft.withslide {
+    margin-left: 240px;
+}

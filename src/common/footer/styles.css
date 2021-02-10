@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.footer-container {
+    padding: 20px;
+}
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+.footer-item {
+    padding: 10px 15px;
+}
